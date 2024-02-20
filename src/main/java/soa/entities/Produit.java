@@ -55,10 +55,10 @@ public class Produit {
 		this.stocks = stocks;
 	}
 
-	public Produit(String code, String designation, double prix, int quantite, Date dateAchat, Categorie categorie) {
+	public Produit(String code, String designation1, double prix, int quantite, Date dateAchat, Categorie categorie) {
 		super();
         this.code = code;
-        this.designation = designation;
+        this.designation = designation1;
 		this.prix = prix;
 		this.quantite = quantite;
 		this.dateAchat = dateAchat;
