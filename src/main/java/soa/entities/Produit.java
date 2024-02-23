@@ -51,8 +51,8 @@ public class Produit {
 		return stocks;
 	}
 
-	public void setStocks(Collection<Stock> stocks) {
-		this.stocks = stocks;
+	public void setStocks(Collection<Stock> stockss) {
+		this.stocks = stockss;
 	}
 
 	public Produit(String code, String designation1, double prix, int quantite, Date dateAchat, Categorie categorie1) {
